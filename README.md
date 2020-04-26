@@ -38,11 +38,11 @@
     relationship. Also, the colors of data points in the scatterplot would represent another variable, so that more
     complex connections would be explored.
     <h2>Stories Telling</h2>
-
-    <h2>Data Sources</h2>
-    1. [Full data of Covid-19] (https://data.world/markmarkoh/coronavirus-data)
-    2. [Countries & Continents dataset](https://www.kaggle.com/statchaitya/country-to-continent)
-    3. [World Map Data](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/)
     
 </body>
 </html>
+
+ <h2>Data Sources</h2>
+    1. [Full data of Covid-19] (https://data.world/markmarkoh/coronavirus-data)
+    2. [Countries & Continents dataset](https://www.kaggle.com/statchaitya/country-to-continent)
+    3. [World Map Data](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/)
