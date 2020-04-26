@@ -1,5 +1,15 @@
 ## Spread of __Covid-19__ around the WHOLE World
 
+
+<iframe src="/fig2.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
 You can use the [editor on GitHub](https://github.com/Root0110/InteractiveDV/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
