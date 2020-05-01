@@ -4,19 +4,16 @@
         <p>@Xiaohan Wang</p>
         <p>@IS590 DV 2020Spring</p>
     <h2>Brief Introductions</h2><p>There is a big event happening, affecting every person in the earth, and it is named
-    Covid-19 by WHO. Up to 25th April, the coronavirus pandemic has seen more than 2,850,000 confirmed cases and more
-    than 198,000 deaths worldwide. Being a member of the humanity, I feel like everyone is equal struggling with the
+    Covid-19 by WHO. Up to April 24th, the coronavirus pandemic has seen more than 2,850,000 confirmed cases and more
+    than 198,000 deaths worldwide. Being a member of the humanity, I feel like everyone be equal struggling with the
     disaster, and the empathy with people in hard time drives me to do something, and the thanksgiving heart of having
     food and a healthy body enables me to devote what I am learning to do some visualizations and analysis.</p>
         <p>The dataset I use records the number of confirmed cases and the number of deaths around the world, daily updated.
-        And I got the dataset containing the most updated records till 24th April, 2020. There are 6 columns in this dataset as follows.
-        <li> date(datetime datatype), represents the date of cases confirmed or deaths recordered with standard format.</ul>
-        <li>location(string), the country name with alphabetical order.</ul>
-        <li>new_cases(integer number), the number of new confirmed cases from last day to the day the same row indicates.</li>
-        <li>new_deaths(integer number), the number of new death from last day to the day the same row indicates.</li>
-        <li>total_cases(int), the number of toal confirmed cases till the date the same row indicates.</li>
-        <li>total_death(int), the number of toal death till the date the same row indicates.</li>
-        </p>
+        And I got the dataset containing the most updated records, and there are a column of datetime ranging from 
+        2019-12-31 to 2020-04-24, the number of daily new cases and deaths in each country/region, also the total numbers.
+        And the number are still being updated, since the Covid-19 is still spreading over the world. Here are some interactive 
+        visualizations and statistical analysis, allowing readers to explore and learn more about this "disaster".</p>     
+
     <h2>Visualizations</h2>
     <h3>Figure 1. Global Deaths of Countries</h3>
         <iframe src="fig2.html"
@@ -28,9 +25,16 @@
         frameborder="0"></iframe>
         <p> Above interactive data map presents the Covid-19 situation regarding to death quantity in each country, with different
         colors from light to dark. As you can see, the dark blue areas have more deaths while the light yellow areas have less
-        deaths. And if you put your click on a certain country, the precise number of deaths(till 04/24/2020) would show up.
-        Maybe the colorbar looks werid at first, because it is not linearly scaled. Don't worry, these intervals are power
-            results of e(Euler's Number: 2.718).</p>
+        deaths. And if you put your click on a certain country, the precise number of deaths(till 04/24/2020) would show up. </p>
+        <p> Views from the author:
+            <li>The north America and the Europe are suffering most from the Covid-19, from the perspective of the total deaths.</ul>
+            <li>Countries/regions at the same continent are highly dependent with each other. E.g. In the Western Europe, almost all
+                countries are colored with dark blue even purple, which is consistent to the common sense of infectious diseases' 
+                regional transmissions. </ul>
+            <li>As a whole, the global deaths situation is not as optimistic as I thought last year. With the globalization being more 
+                and more important, it is hard for one country/region to totally isolate itself with others.</ul>
+        </p>
+
     <h3>Figure 2. Dashboard to Explore Monthly & Daily Number of Cases in 5 Continents</h3>
         <iframe src="export.html"
         sandbox="allow-same-origin allow-scripts"
